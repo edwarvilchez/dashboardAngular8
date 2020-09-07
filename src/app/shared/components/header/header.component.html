@@ -1,1 +1,26 @@
-<p>header works!</p>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>APP-LOGO</span>
+    <span>Third line</span>
+
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+      <ul fxLayout="row" fxLayoutGap="20px">
+        <li>
+          <button mat-icon-button>
+            <mat-icon>Settings</mat-icon>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">Favorites</mat-icon>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">Delete</mat-icon>
+  </mat-toolbar-row>
+
+</mat-toolbar>
