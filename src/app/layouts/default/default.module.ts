@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 
 // modulo importado
 import { SharedModule } from 'src/app/shared/shared.module';
+import { MatSidenavModule } from '@angular/material';
 // componentes importados
 import { BiometricsComponent } from 'src/app/modules/biometrics/biometrics.component';
 import { CustomersComponent } from 'src/app/modules/customers/customers.component';
@@ -21,13 +22,15 @@ import { ProductsComponent } from 'src/app/modules/products/products.component';
     BiometricsComponent,
     CustomersComponent,
     DevolutionsComponent,
-    ProductsComponent
+    ProductsComponent,
+
   ],
 
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    MatSidenavModule
   ]
 })
 export class DefaultModule { }
