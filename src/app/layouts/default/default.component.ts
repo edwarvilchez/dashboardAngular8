@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DefaultComponent implements OnInit {
 
+  // variable para controlar la apertura y cierre de la barra lateral
+  sideBarOpen = true;
+
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  sideBarToggler() {
+    this.sideBarOpen = !this.sideBarOpen;
   }
 
 }
