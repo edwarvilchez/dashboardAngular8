@@ -7,7 +7,7 @@ import { MatDividerModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { MatButtonModule } from '@angular/material';
-import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 
 @NgModule({
@@ -22,7 +22,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    FlexLayoutModule
+
   ],
   exports: [
     HeaderComponent,
