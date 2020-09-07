@@ -8,7 +8,7 @@ import { CustomersComponent } from 'src/app/modules/customers/customers.componen
 import { DevolutionsComponent } from 'src/app/modules/devolutions/devolutions.component';
 import { ProductsComponent } from 'src/app/modules/products/products.component';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { MatSidenavModule } from '@angular/material';
+import { MatSidenavModule, MatDividerModule } from '@angular/material';
 
 
 
@@ -25,7 +25,8 @@ import { MatSidenavModule } from '@angular/material';
     CommonModule,
     RouterModule,
     SharedModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDividerModule
   ]
 })
 export class DefaultModule { }
